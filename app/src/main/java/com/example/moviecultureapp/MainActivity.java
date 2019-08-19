@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         loginButton = findViewById(R.id.login_button);
-        txtName = findViewById(R.id.profile_name);
-        txtMail = findViewById(R.id.profile_email);
+        //txtName = findViewById(R.id.profile_name);
+        //txtMail = findViewById(R.id.profile_email);
 
         callbackManager = CallbackManager.Factory.create();
         loginButton.setPermissions(Arrays.asList("email","public_profile"));
